@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    color: black;
+}
+.nav{
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    gap: 10px ;
+    list-style: none;
+
+}
+main{
+background-image:url('../media/pexels-andrew-neel-2312369.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+color: aqua;
+}
+.h1{
+font-family: Arial, Helvetica, sans-serif;
+}
+.para{
+    font-family:Arial, Helvetica, sans-serif
+ }
+ .menu a{
+    color: black;
+    text-decoration: none;
+ }
+ #num{
+    color: black;
+    font-weight: bolder;
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+ }
+.img{
+    width: 100%;
+    height: 200px;
+}
+.div{
+width: 20%;
+height: auto;
+}
+#SERVICES{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-size: larger;
+    font-weight: bolder;
+}
+ul li a:hover{
+    color: blue
+}
+#SERVICES h1{text-align: center;}
